@@ -184,9 +184,9 @@ public class Main {
                         System.out.println("Gym - Increases Damage \n Kitchen - reduces the cost of food. \n Office - Increases money earned. \n");
                     } else if(buy.equals("gym")){
                         System.out.println("What upgrade do you want?\n");
-                        System.out.println("Level 1 - 5 strength gain. $250 \n");
-                        System.out.println("Level 2 - 10 strength gain. $500 \n");
-                        System.out.println("Level 3 - 25 strength gain. $1000 \n");
+                        System.out.println("Level 1 - 10 strength gain. $250 \n");
+                        System.out.println("Level 2 - 25 strength gain. $500 \n");
+                        System.out.println("Level 3 - 50 strength gain. $1000 \n");
                         String gymB = sc.nextLine();
                         if (gymB.equals("1")){
                             if (balance > 250){
@@ -251,9 +251,9 @@ public class Main {
                         System.out.println("Exiting...");
                         break;
                     } else if (buy.equals("kitchen")){
-                        System.out.println("Level 1 - Heals you for 50. Cost $250 \n");
-                        System.out.println("Level 2 - Heals you for 100. Cost $500 \n");
-                        System.out.println("Level 3 - Heals you for 200. Cost $1000 \n");
+                        System.out.println("Level 1 - decreases the price it costs to heal you to $25. Cost $250 \n");
+                        System.out.println("Level 2 - decreases the price it costs to heal you to $10. Cost $500 \n");
+                        System.out.println("Level 3 - decreases the price it costs to heal you to $5. Cost $1000 \n");
                         String kitchenB = sc.nextLine();
                         if (kitchenB.equals("1")){
                             if (balance > 250){
